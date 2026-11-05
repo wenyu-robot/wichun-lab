@@ -106,8 +106,8 @@ Other robot families will be introduced when relevant.
 ## How to navigate the knowledge
 
 1. Understand each block's purpose and connections.
-2. Start in depth with robot modeling, control, and learning.
-3. Expand to perception, spatial intelligence, world models, VLA, and agents.
+2. Study from hardware and electronics through software, robot modeling, sensing, spatial understanding, reasoning, planning, control, and learning.
+3. Examine cross-cutting approaches such as world models, reinforcement learning, VLA, and agents in the context of the robot problems they address.
 4. Use experiments, source papers, and reproducibility to test conclusions.
 
 A topic may progress from **clear explanation → mathematical/algorithmic understanding → experimental verification**.
