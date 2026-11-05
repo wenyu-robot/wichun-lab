@@ -6,7 +6,7 @@
 
 *An evolving open learning journal on robotics, control, and embodied intelligence.*
 
-[简体中文](README.zh-CN.md) · [Knowledge Atlas](docs/KNOWLEDGE-ATLAS.md) · [Study Plan](docs/STUDY-PLAN.md) · [Notes](notes/README.md) · [Papers](papers/README.md) · [Labs](labs/README.md)
+[简体中文](README.zh-CN.md) · [Knowledge Atlas](docs/KNOWLEDGE-ATLAS.md) · [Notes](notes/README.md) · [Papers](papers/README.md) · [Labs](labs/README.md)
 
 </div>
 
@@ -22,7 +22,7 @@ The principle is simple: **understand first, verify when possible, then share**.
 
 ![Wichun.lab Knowledge Map](assets/knowledge-map-v0.1-en.svg)
 
-[Read the detailed Knowledge Atlas v0.2](docs/KNOWLEDGE-ATLAS.md) · **[Study Plan: 12 topics](docs/STUDY-PLAN.md)** · [中文版知识地图](assets/knowledge-map-v0.1-zh.svg)
+[Read the detailed Knowledge Atlas v0.2](docs/KNOWLEDGE-ATLAS.md) · [中文版知识地图](assets/knowledge-map-v0.1-zh.svg)
 
 The diagram is a **learning guide**, not a fixed software architecture. Different algorithms and systems can span multiple stages.
 
@@ -31,7 +31,6 @@ The diagram is a **learning guide**, not a fixed software architecture. Differen
 | Section | Scope | Status |
 | --- | --- | --- |
 | [Knowledge Atlas](docs/KNOWLEDGE-ATLAS.md) | Main problems, technical connections, and starting references | **v0.2 published** |
-| [Study Plan](docs/STUDY-PLAN.md) | Twelve topics, learning priorities, and intended outputs | **v0.1 planned** |
 | [Notes](notes/README.md) | Concepts, equations, and detailed tutorials | In progress |
 | [Papers](papers/README.md) | Source-linked readings, method comparisons, and open questions | In progress |
 | [Labs](labs/README.md) | Reproducible code, simulations, configurations, and results | In progress |
