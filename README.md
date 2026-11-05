@@ -40,7 +40,7 @@ The main practice platforms are **manipulators, quadrupeds, and humanoids**. Oth
 ## How it grows
 
 1. **Map the landscape** — understand how hardware, software, and intelligence connect.
-2. **Go deep** — begin with control and robot learning, then expand systematically.
+2. **Go deep** — progress from hardware and electronics through robot software and modeling to sensing, understanding, reasoning, planning, control, and learning.
 3. **Verify through experiments** — document versions, methods, limitations, and results.
 4. **Open and improve** — share learning material that can be read, reused, and corrected.
 
