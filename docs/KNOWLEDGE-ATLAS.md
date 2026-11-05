@@ -1,7 +1,7 @@
 # Robotics & Embodied Intelligence: A Knowledge Atlas
 
 > Wichun.lab · Knowledge Atlas v0.2 (text companion) · 2026-11-05  
-> [Overview map](ROADMAP.md) · [简体中文](KNOWLEDGE-ATLAS.zh-CN.md) · [Home](../README.md)
+> [Knowledge map (SVG)](../assets/knowledge-map-v0.1-en.svg) · [Study plan](STUDY-PLAN.md) · [简体中文](KNOWLEDGE-ATLAS.zh-CN.md) · [Home](../README.md)
 
 ## The question behind the project
 
