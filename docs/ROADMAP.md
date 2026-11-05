@@ -1,6 +1,6 @@
 # Knowledge map · v0.1
 
-[中文](ROADMAP.zh-CN.md) · [Home](../README.md)
+[中文](ROADMAP.zh-CN.md) · [Read the detailed Knowledge Atlas v0.2](KNOWLEDGE-ATLAS.md) · [Home](../README.md)
 
 ![Knowledge map](../assets/knowledge-map-v0.1-en.svg)
 
