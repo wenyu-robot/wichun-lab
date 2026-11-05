@@ -1,6 +1,6 @@
 # Notes / 学习笔记
 
-[Home](../README.md) · [中文首页](../README.zh-CN.md)
+[Home](../README.md) · [中文首页](../README.zh-CN.md) · [学习专题计划](../docs/STUDY-PLAN.zh-CN.md)
 
 This section will host structured explanations and mathematical derivations, beginning with robot modeling, control theory, and robot learning.
 
