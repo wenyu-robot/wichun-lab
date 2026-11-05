@@ -6,7 +6,7 @@
 
 一个持续更新的机器人与具身智能开放学习项目。
 
-[English](README.md) · [知识路线](docs/ROADMAP.zh-CN.md) · [学习笔记](notes/README.md) · [论文阅读](papers/README.md) · [实验代码](labs/README.md)
+[English](README.md) · [知识全景](docs/KNOWLEDGE-ATLAS.zh-CN.md) · [学习专题计划](docs/STUDY-PLAN.zh-CN.md) · [学习笔记](notes/README.md) · [论文阅读](papers/README.md) · [实验代码](labs/README.md)
 
 </div>
 
@@ -22,7 +22,7 @@
 
 ![Wichun.lab 具身智能知识全景](assets/knowledge-map-v0.1-zh.svg)
 
-[查看知识地图说明](docs/ROADMAP.zh-CN.md) · **[阅读知识全景内容版 v0.2](docs/KNOWLEDGE-ATLAS.zh-CN.md)** · [English map](assets/knowledge-map-v0.1-en.svg)
+[阅读知识全景内容版 v0.2](docs/KNOWLEDGE-ATLAS.zh-CN.md) · **[查看 12 个学习专题计划](docs/STUDY-PLAN.zh-CN.md)** · [English map](assets/knowledge-map-v0.1-en.svg)
 
 这张图是**学习导航**，不是声称所有机器人都严格遵循同一套软件流程。VLA、世界模型和强化学习等方法可以跨越多个环节。
 
@@ -30,7 +30,8 @@
 
 | 板块 | 主要内容 | 状态 |
 | --- | --- | --- |
-| [知识地图](docs/ROADMAP.zh-CN.md) | 领域全景、关键问题、技术关系与学习路线 | **v0.1 已发布** |
+| [知识全景](docs/KNOWLEDGE-ATLAS.zh-CN.md) | 领域全景、核心问题、技术联系与参考资源 | **v0.2 已发布** |
+| [学习专题计划](docs/STUDY-PLAN.zh-CN.md) | 12 个专题、学习顺序与阶段产出 | **v0.1 规划稿** |
 | [学习笔记](notes/README.md) | 概念讲解、数学推导、专题教程 | 建设中 |
 | [论文阅读](papers/README.md) | 研究背景、方法比较、实验分析 | 建设中 |
 | [实验代码](labs/README.md) | 仿真、复现、运行配置与验证结果 | 建设中 |
