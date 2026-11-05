@@ -1,7 +1,7 @@
 # 具身智能知识全景：从一台机器人出发
 
 > Wichun.lab · Knowledge Atlas v0.2（内容版） · 2026-11-05  
-> [知识地图 SVG](../assets/knowledge-map-v0.1-zh.svg) · [学习专题计划](STUDY-PLAN.zh-CN.md) · [English](KNOWLEDGE-ATLAS.md) · [项目中文首页](../README.zh-CN.md)
+> [知识地图 SVG](../assets/knowledge-map-v0.1-zh.svg) · [English](KNOWLEDGE-ATLAS.md) · [项目中文首页](../README.zh-CN.md)
 
 ## 先用一句话理解这个项目
 
