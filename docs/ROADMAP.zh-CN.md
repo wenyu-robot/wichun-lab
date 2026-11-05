@@ -1,6 +1,6 @@
 # 具身智能知识全景 · v0.1
 
-[English](ROADMAP.md) · [返回中文首页](../README.zh-CN.md)
+[English](ROADMAP.md) · [逐项讲解：知识全景内容版 v0.2](KNOWLEDGE-ATLAS.zh-CN.md) · [返回中文首页](../README.zh-CN.md)
 
 ![具身智能知识地图](../assets/knowledge-map-v0.1-zh.svg)
 
