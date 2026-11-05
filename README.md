@@ -22,7 +22,7 @@ The principle is simple: **understand first, verify when possible, then share**.
 
 ![Wichun.lab Knowledge Map](assets/knowledge-map-v0.1-en.svg)
 
-[Read the roadmap](docs/ROADMAP.md) · [中文版知识地图](assets/knowledge-map-v0.1-zh.svg)
+[Read the roadmap](docs/ROADMAP.md) · **[Explore the detailed Knowledge Atlas v0.2](docs/KNOWLEDGE-ATLAS.md)** · [中文版知识地图](assets/knowledge-map-v0.1-zh.svg)
 
 The diagram is a **learning guide**, not a fixed software architecture. Different algorithms and systems can span multiple stages.
 
