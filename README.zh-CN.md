@@ -22,7 +22,7 @@
 
 ![Wichun.lab 具身智能知识全景](assets/knowledge-map-v0.1-zh.svg)
 
-[查看知识地图说明](docs/ROADMAP.zh-CN.md) · [English map](assets/knowledge-map-v0.1-en.svg)
+[查看知识地图说明](docs/ROADMAP.zh-CN.md) · **[阅读知识全景内容版 v0.2](docs/KNOWLEDGE-ATLAS.zh-CN.md)** · [English map](assets/knowledge-map-v0.1-en.svg)
 
 这张图是**学习导航**，不是声称所有机器人都严格遵循同一套软件流程。VLA、世界模型和强化学习等方法可以跨越多个环节。
 
