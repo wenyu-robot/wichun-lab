@@ -4,53 +4,54 @@
 
 **From Hardware to Intelligence**
 
-*An evolving open learning journal on robotics, control, and embodied intelligence.*
+An open learning and research journal built around RoboParty humanoid robots.
 
-[简体中文](README.zh-CN.md) · [Knowledge Atlas](docs/KNOWLEDGE-ATLAS.md) · [Notes](notes/README.md) · [Papers](papers/README.md) · [Labs](labs/README.md)
+[简体中文](README.zh-CN.md) · [Start here](docs/ROBOPARTY.en.md) · [Knowledge Atlas](docs/KNOWLEDGE-ATLAS.md) · [Notes](notes/README.md) · [Papers](papers/README.md) · [Labs](labs/README.md)
 
 </div>
 
-## Why this project?
+## The central question
 
-**How can a physical robot learn to sense, understand, reason, act, and improve through interaction?**
+**How does a humanoid robot progress from physical hardware to sensing, understanding, decisions, action and autonomous learning?**
 
-This project explores that question from mechanical and electronic systems through software, robot modeling, perception, control, learning, and higher-level intelligence.
+The first edition follows RoboParty's open materials: mechanisms, actuators and electronics; firmware, communication and robot models; motion control, perception, learning and autonomous tasks. Explanations, source analysis, paper readings and experiments will connect these layers on a common robot platform.
 
-The principle is simple: **understand first, verify when possible, then share**. This is a growing collection of research notes and experiments, not a finished textbook.
+**Understand first, then share.** This is a long-term learning and research project, revised as evidence grows.
 
-## The knowledge map
+## First-edition scope and starting point
 
-![Wichun.lab Knowledge Map](assets/knowledge-map-v0.1-en.svg)
+- **Platform family:** humanoid robots, focused on RoboParty.
+- **Source entries:** [RP1](https://github.com/Roboparty/RP1) for the platform and subsystems, [ROBOTO_ORIGIN / RPO](https://github.com/Roboparty/roboto_origin) for prototype context, and [Party_OS](https://github.com/Roboparty/Party_OS) for capability research and its roadmap.
+- **Version boundary:** the first experiment's exact robot configuration and upstream commits have not been selected. Each experiment must record matching hardware, models, code, data and policy versions.
+- **Current status:** a knowledge framework and source guide are available. Detailed tutorials, paper readings and reproduced experiments are still planned. Public availability, robot support and local verification are tracked separately.
 
-[Read the detailed Knowledge Atlas v0.2](docs/KNOWLEDGE-ATLAS.md) · [中文版知识地图](assets/knowledge-map-v0.1-zh.svg)
+**Begin with the [RoboParty source guide](docs/ROBOPARTY.en.md).** The next planned output is a humanoid system anatomy: follow one joint through mechanics, motor and driver, communication, state feedback and commands.
 
-The diagram is a **learning guide**, not a fixed software architecture. Different algorithms and systems can span multiple stages.
+## Knowledge map
 
-## What you'll find
+![Wichun.lab Humanoid Knowledge Map](assets/knowledge-map-v0.2-en.svg)
+
+[Read Knowledge Atlas v0.3](docs/KNOWLEDGE-ATLAS.md) · [中文版地图](assets/knowledge-map-v0.2-zh.svg)
+
+This map explains functional questions and their connections. Learning, world models and VLA can span several functions. Research directions shown here are not claims of capabilities released by RoboParty or implemented in this repository.
+
+## How the content grows
 
 | Section | Scope | Status |
 | --- | --- | --- |
-| [Knowledge Atlas](docs/KNOWLEDGE-ATLAS.md) | Main problems, technical connections, and starting references | **v0.2 published** |
-| [Notes](notes/README.md) | Concepts, equations, and detailed tutorials | In progress |
-| [Papers](papers/README.md) | Source-linked readings, method comparisons, and open questions | In progress |
-| [Labs](labs/README.md) | Reproducible code, simulations, configurations, and results | In progress |
+| [RoboParty guide](docs/ROBOPARTY.en.md) | Official sources, subsystem mapping and verification boundaries | Initial guide |
+| [Knowledge Atlas](docs/KNOWLEDGE-ATLAS.md) | Body, software and models through motion, perception and autonomous tasks | v0.3 |
+| [Notes](notes/README.md) | Principles, derivations, source and system analysis | Planned |
+| [Papers](papers/README.md) | Problems, methods, evidence and platform relevance | Planned |
+| [Labs](labs/README.md) | Runnable configurations, evaluation, failures and reproduction records | Planned |
 
-The main practice platforms are **manipulators, quadrupeds, and humanoids**. Other robots will appear when they help explain general ideas.
-
-## How it grows
-
-1. **Map the landscape** — understand how hardware, software, and intelligence connect.
-2. **Go deep** — progress from hardware and electronics through robot software and modeling to sensing, understanding, reasoning, planning, control, and learning.
-3. **Verify through experiments** — document versions, methods, limitations, and results.
-4. **Open and improve** — share learning material that can be read, reused, and corrected.
-
-Safety, reliability, human–robot interaction, and continual learning are cross-cutting topics.
+Each topic should connect **question → upstream evidence → principles and code → experiment → results and limitations**. Motion skills, perception-driven behavior and autonomous tasks require separate evaluation criteria.
 
 ## Contributions and rights
 
-Corrections, references, and reproducibility suggestions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Corrections, primary references and experiment suggestions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
-This project is at an early stage; planned materials are clearly labeled. An explicit content/software license has not been selected yet. Third-party papers, data, figures, and code retain their own rights.
+This is an independently maintained project, with no official affiliation or partnership with RoboParty. Upstream projects retain their attribution and applicable licenses; consult each repository and version. A license for Wichun.lab's own material has not yet been selected. Third-party papers are managed mainly through links and citations.
 
 ---
 

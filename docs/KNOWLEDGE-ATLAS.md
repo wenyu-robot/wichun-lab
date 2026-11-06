@@ -1,15 +1,19 @@
-# Robotics & Embodied Intelligence: A Knowledge Atlas
+# A Humanoid Knowledge Atlas: Starting with RoboParty
 
-> Wichun.lab · Knowledge Atlas v0.2 (text companion) · 2026-11-05  
-> [Knowledge map (SVG)](../assets/knowledge-map-v0.1-en.svg) · [简体中文](KNOWLEDGE-ATLAS.zh-CN.md) · [Home](../README.md)
+> Wichun.lab · Knowledge Atlas v0.3 · 2026-11-06  
+> [Knowledge map (SVG)](../assets/knowledge-map-v0.2-en.svg) · [简体中文](KNOWLEDGE-ATLAS.zh-CN.md) · [Home](../README.md)
 
 ## The question behind the project
 
-**How does a physical robot acquire the ability to sense, understand, reason, act, and learn from interaction?**
+**How does a humanoid robot progress from physical hardware to sensing, understanding, decisions, action and autonomous learning?**
+
+The first edition follows RoboParty: RP1 for system mapping, RPO for prototype context and Party_OS for capability research. Start with the [source guide](ROBOPARTY.en.md). The first experiment's robot configuration and versions remain to be checked; platform and algorithm compatibility is not assumed.
 
 This is a map of **problems that a robot must solve**, rather than an exhaustive list of model names. It is designed to make connections visible before diving into algorithms or papers. Detailed tutorials and validated experiments will be added incrementally.
 
-## An example: a quadruped climbing unfamiliar stairs
+## A research goal: a humanoid reaches a target and stops stably
+
+Consider asking a RoboParty humanoid to walk to a specified location and stop. This is a goal scenario for decomposing research questions, not a capability verified here or a claim that the platform supplies a complete autonomous implementation.
 
 | Question | Needed knowledge |
 | --- | --- |
@@ -20,7 +24,7 @@ This is a map of **problems that a robot must solve**, rather than an exhaustive
 | Where can it safely place its feet? | 3D geometry, spatial reasoning, terrain representations |
 | Which steps and trajectory should it choose? | Decision making, motion planning, learned policies |
 | How does it execute the plan reliably? | Feedback control, MPC, WBC, constraints |
-| What if it slips or encounters a novel obstacle? | Feedback, recovery, adaptation, evaluation |
+| What if it slips, loses balance or misses the target? | Feedback, recovery, adaptation, evaluation |
 
 These are functional questions, **not a required serial software pipeline**. A learned end-to-end policy may combine several functions.
 
@@ -92,23 +96,28 @@ Data collection/quality, robot simulators, reproducibility, training infrastruct
 
 Benchmarks, baselines, ablations, random seeds, out-of-distribution testing, failure analysis, safe operation, human–robot interaction and long-term reliability. A demonstration alone is not a generalization result.
 
-## Three main robot platforms
+## Six questions about the same humanoid
 
-| | Manipulators | Quadrupeds | Humanoids |
-| --- | --- | --- | --- |
-| Physical challenge | Contact, grasping | Terrain, switching supports | Floating-base dynamics, balance |
-| Perception | Object pose, vision, touch | Terrain, proprioception, contacts | Whole-body state and scene |
-| Motion | Grasp and impedance | Locomotion and footholds | Whole-body coordination |
-| Learning | Demonstrations, VLA | RL, perceptive control | Imitation, full-body learning |
+| Layer | Main question | Planned evidence |
+| --- | --- | --- |
+| Body and hardware | How do joints, actuators, electronics and sensors limit behavior? | Mechanical, electrical and actuator analysis |
+| Software and interfaces | How do observations and commands flow through the system? | Protocols, timing and data flow |
+| Models and state | How are whole-body motion, contact, balance and state represented? | Model analysis, derivation and checks |
+| Motion skills | How does it stand, walk, turn and track motions? | Baselines, metrics and failure analysis |
+| Perception and interaction | How does motion adapt to terrain, objects and contact? | Perception-driven task experiments |
+| Autonomous tasks | How are skills selected, outcomes checked and failures recovered? | Measurable task loops |
 
-Other robot families will be introduced when relevant.
+Commanded walking tests motion ability. Autonomous target reaching also needs environment observations, goals, decisions and outcome checks. Establish evidence for each capability separately. The [source guide](ROBOPARTY.en.md) connects these questions to upstream entries; experiments are not yet completed.
 
 ## How to navigate the knowledge
 
-1. Understand each block's purpose and connections.
-2. Study from hardware and electronics through software, robot modeling, sensing, spatial understanding, reasoning, planning, control, and learning.
-3. Examine cross-cutting approaches such as world models, reinforcement learning, VLA, and agents in the context of the robot problems they address.
-4. Use experiments, source papers, and reproducibility to test conclusions.
+1. Trace one joint through mechanics, drive, communication, feedback and control before expanding to the whole body.
+2. Match hardware and models: axes, actuator IDs, ordering, units, zeros and sensor configuration.
+3. Run a minimal model and feedback check in a compatible simulator; record versions, commands and observations.
+4. Select a supported standing, walking or motion-tracking baseline and evaluate its failures.
+5. Add perception and autonomous tasks, introducing estimation, planning, learning, world models or agents where needed.
+
+Alternate system analysis with small experiments. Distinguish reading, source analysis, simulation and physical validation.
 
 A topic may progress from **clear explanation → mathematical/algorithmic understanding → experimental verification**.
 
@@ -116,7 +125,7 @@ Core foundations such as optimization, probability, linear algebra, transformers
 
 ## Starting resources (official)
 
-These are references for further study, **not claims of completed study or reproductions**:
+Use the [RoboParty guide](ROBOPARTY.en.md) for platform sources. The following supplement principles and tools, **not claims of completed study or reproductions**:
 
 - [Modern Robotics — Northwestern University](https://modernrobotics.northwestern.edu/)
 - [Underactuated Robotics — MIT](https://underactuated.csail.mit.edu/)
